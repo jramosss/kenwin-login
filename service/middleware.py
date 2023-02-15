@@ -1,6 +1,4 @@
-from traceback import print_exception
 from django.http import HttpRequest
-from rest_framework.response import Response
 
 
 class ExceptionsMiddleware:
