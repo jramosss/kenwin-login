@@ -19,7 +19,7 @@
 `python manage.py runserver`
 
 ## Test
-`python manage.py test`
+`pytest`
 
 ## API
 - `GET /auth/login/`
