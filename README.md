@@ -1,5 +1,7 @@
 # Kenwin Login
 
+[![codecov](https://codecov.io/gh/jramosss/kenwin-login/branch/master/graph/badge.svg?token=IREQIZE7OW)](https://codecov.io/gh/jramosss/kenwin-login)
+
 ## Prerequisites
 - python3
 - docker-compose
