@@ -1,0 +1,12 @@
+# Django
+Django==4.1.7
+pytest-django
+djangorestframework
+
+# Testing
+pytest
+pytest-cov
+pytest-sugar
+
+# Database
+psycopg2
