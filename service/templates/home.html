@@ -2,8 +2,13 @@
 
 {% block content %}
 
-<h1>
-    Atroden
-</h1>
+{% if user_validated %}
+    <p>Atroden</p>
+    <form method="post" action="{% url 'logout' %}">
+        <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+{% else %}
+    <p>Please login to see this page.</p>
+{% endif %}
 
 {% endblock %}

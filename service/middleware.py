@@ -11,5 +11,6 @@ class ExceptionsMiddleware:
         return self.get_response(request)
 
     def process_exception(self, request: HttpRequest, exception: Exception):
-        print_exception(type(exception), exception, exception.__traceback__)
-        return Response({"error": str(exception)}, status=500)
+        pass
+        # print_exception(type(exception), exception, exception.__traceback__)
+        # return Response({"error": str(exception)}, status=500)
