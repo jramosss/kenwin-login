@@ -16,3 +16,6 @@ psycopg2
 # Code Style
 pycodestyle
 ruff
+
+# Misc
+python-dotenv
