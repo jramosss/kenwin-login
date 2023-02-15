@@ -1,5 +1,5 @@
 # Django
-Django==4.1.7
+Django
 pytest-django
 djangorestframework
 djangorestframework-simplejwt
