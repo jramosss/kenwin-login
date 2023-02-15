@@ -13,7 +13,13 @@
 - Create the database
   - `python manage.py migrate`
 
-
 ## Run
 `python manage.py runserver`
+
+## Test
+`python manage.py test`
+
+## API
+- `GET /auth/login/`
+- `GET /auth/logout/`
 
