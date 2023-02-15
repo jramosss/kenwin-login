@@ -4,6 +4,7 @@
 
 {% if user_validated %}
     <p>Atroden</p>
+    {% csrf_token %}
     <form method="post" action="{% url 'logout' %}">
         <button type="submit" class="btn btn-primary">Logout</button>
     </form>

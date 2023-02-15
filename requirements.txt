@@ -8,6 +8,7 @@ djangorestframework-simplejwt
 pytest
 pytest-cov
 pytest-sugar
+mixer
 
 # Database
 psycopg2
