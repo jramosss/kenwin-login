@@ -2,6 +2,7 @@
 Django==4.1.7
 pytest-django
 djangorestframework
+djangorestframework-simplejwt
 
 # Testing
 pytest
@@ -10,3 +11,7 @@ pytest-sugar
 
 # Database
 psycopg2
+
+# Code Style
+pycodestyle
+ruff

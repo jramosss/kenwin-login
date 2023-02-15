@@ -1,7 +1,5 @@
 # Kenwin Login
 
-# How to use
-
 ## Prerequisites
 - python3
 - docker-compose
