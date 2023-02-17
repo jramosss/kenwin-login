@@ -26,6 +26,10 @@ def test_login_fail():
     assert response.context["error"] == "No active account found with the given credentials"
 
 
-def test_logout():
+@pytest.mark.parametrize("user_logged_in", [True, False])
+def test_logout(user_logged_in):
+    if user_logged_in:
+        user = mixer.blend(User)
+        client.force_login(user)
     response = client.get("/auth/logout/")
     assert response.status_code == 200
