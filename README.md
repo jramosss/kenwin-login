@@ -11,9 +11,12 @@
 - Install requirements
   - `pip install -r requirements.txt`
 - Start the database service
+  - Replace the environment variables `POSTGRES_DB` and `POSTGRES_PASSWORD`
   - `docker-compose up`
 - Create the database
   - `python manage.py migrate`
+- Create a user
+  - `python manage.py createsuperuser`
 
 ## Run
 `python manage.py runserver`
