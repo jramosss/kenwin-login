@@ -11,6 +11,11 @@ client = Client()
 pytestmark = pytest.mark.django_db
 
 
+def test_show_login_form():
+    response = client.get("/auth/login/")
+    assert response.status_code == 200
+
+
 def test_login_success():
     user_data = {"username": "test", "password": "test"}
     mixer.blend(User, username=user_data["username"], password=make_password(user_data["password"]))

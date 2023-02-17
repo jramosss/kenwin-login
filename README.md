@@ -25,3 +25,9 @@
 - `GET /auth/login/`
 - `GET /auth/logout/`
 
+
+## Why's?
+- Why Django?
+  - Django is the framework i feel most comfortable with.
+- Why Rest Framework?
+  - I could have used Django's built in views, but i wanted to use the Rest Framework because i wanted to use the Token Authentication, and not just make and endpoint that opens a door, so i could test it further.

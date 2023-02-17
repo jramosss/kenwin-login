@@ -13,7 +13,7 @@ SECRET_KEY = "django-insecure-wkb-@!#++$!#0w7$!-b$gntcwfujhf_%0m442^l!e2tg+kga(k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost:8000"]
+ALLOWED_HOSTS = []
 
 DJANGO_APPS = [
     "django.contrib.admin",

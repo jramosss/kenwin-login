@@ -22,4 +22,5 @@ def login(request: HttpRequest):
 
 
 def logout(request: HttpRequest):
-    return render(request, "login.html")
+    if request.method == "GET":
+        return render(request, "login.html")
